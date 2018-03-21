@@ -3,6 +3,7 @@ version = "0.1.0"
 
 buildscript {
     ext.kotlin_version = '1.2.30'
+    ext.html_version = "0.6.6"
 
     repositories {
         jcenter()
@@ -19,11 +20,14 @@ apply plugin: 'kotlin2js'
 apply plugin: 'org.jetbrains.kotlin.frontend'
 
 repositories {
+    mavenLocal()
     jcenter()
+    maven { url "http://dl.bintray.com/kotlin/kotlinx.html" }
 }
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+    compile("org.jetbrains.kotlinx:kotlinx-html-js:$html_version")
     compile "org.jetbrains.kotlin:kotlin-test-js:$kotlin_version" // for now only compile configuration is supported
 //    testCompile "org.jetbrains.kotlin:kotlin-test-js:$kotlin_version" // for now only compile configuration is supported
 

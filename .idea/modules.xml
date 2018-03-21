@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KotlinJQueryFrontend.iml" filepath="$PROJECT_DIR$/KotlinJQueryFrontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinJQueryFrontend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinJQueryFrontend_main.iml" group="KotlinJQueryFrontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinJQueryFrontend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinJQueryFrontend_test.iml" group="KotlinJQueryFrontend" />
     </modules>
   </component>
 </project>
