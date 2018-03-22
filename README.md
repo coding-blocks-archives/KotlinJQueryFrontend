@@ -90,3 +90,10 @@ Stop
 gradle stop
 ```
 
+### 6. Hot Reload
+
+```
+gradle -t run
+```
+
+Open `http://localhost:8088`
